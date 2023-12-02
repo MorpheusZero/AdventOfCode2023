@@ -1,0 +1,15 @@
+{
+  "name": "adventofcode2023",
+  "version": "1.0.0",
+  "description": "Advent of Code 2023 https://adventofcode.com/2023/",
+  "scripts": {
+    "start": "npm run day1p1",
+    "day1p1": "npm run build && node ./dist/day_1/p1.js",
+    "build": "rm -rf dist && npx tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.2",
+    "typescript": "^5.3.2"
+  }
+}
