@@ -33,7 +33,9 @@ const _getTotalFromString = (str: string): number => {
   let total = 0;
 
   for (const itm of p1Data.split("\n")) {
-    total += _getTotalFromString(itm);
+    const iteration = _getTotalFromString(itm);
+    console.log(iteration);
+    total += iteration;
   }
 
   console.log(`TOTAL: [${total}]`);
