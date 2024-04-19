@@ -1,7 +1,5 @@
-(ns day-2.data)
-
-(defn GetData []
-  (println "Game 1: 7 blue, 4 red, 11 green; 2 red, 2 blue, 7 green; 2 red, 13 blue, 8 green; 18 blue, 7 green, 5 red
+export const getData =
+  () => `Game 1: 7 blue, 4 red, 11 green; 2 red, 2 blue, 7 green; 2 red, 13 blue, 8 green; 18 blue, 7 green, 5 red
 Game 2: 3 green, 4 red, 4 blue; 6 red, 4 green, 4 blue; 2 blue, 4 green, 3 red
 Game 3: 1 red, 2 green, 3 blue; 1 red, 2 green; 2 green, 3 red; 1 blue, 2 red
 Game 4: 1 red, 15 green; 1 green, 2 blue; 12 green, 1 red, 2 blue; 14 green; 2 green, 1 blue, 2 red
@@ -100,4 +98,4 @@ Game 96: 3 blue, 12 red, 3 green; 13 red, 9 blue; 2 green, 5 red, 13 blue; 2 red
 Game 97: 4 red, 3 green; 2 blue, 4 red, 5 green; 3 red, 3 green
 Game 98: 2 red, 19 blue; 2 blue; 11 blue, 2 red; 3 green, 5 blue, 1 red; 2 red, 1 blue; 17 blue
 Game 99: 2 red, 16 blue, 1 green; 2 green, 12 blue, 6 red; 1 red, 3 green, 3 blue; 8 red, 1 green; 2 red, 9 blue; 1 green, 7 red, 9 blue
-Game 100: 8 green, 3 red; 7 green, 4 red; 1 red, 7 green, 2 blue; 1 green, 2 red"))
+Game 100: 8 green, 3 red; 7 green, 4 red; 1 red, 7 green, 2 blue; 1 green, 2 red`;
