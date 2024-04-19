@@ -1,3 +1,15 @@
+export class Line {
+  public id!: string;
+  public indexValues!: IndexedValue[];
+}
+
+export class IndexedValue {
+  public startingIndex!: number;
+  public endingIndex!: number;
+  public isSymbol!: boolean;
+  public value!: string;
+}
+
 export class LogicFriend {
   public static getSymbolsDict(data: string) {
     const symbolsDict: any[] = [];
